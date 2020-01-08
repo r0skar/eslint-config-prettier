@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-ts-react-prettier",
+  "name": "eslint-config-prettier",
   "version": "0.0.1",
   "description": "Strict eslint & prettier config for functional TS(X) projects.",
   "main": "index.js",
