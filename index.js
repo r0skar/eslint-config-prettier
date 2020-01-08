@@ -7,7 +7,7 @@ module.exports = {
 
   parser: 'babel-eslint',
 
-  plugins: ['@typescript-eslint', 'promise', 'unicorn', 'prettier'],
+  plugins: ['@typescript-eslint', 'import', 'promise', 'unicorn', 'prettier'],
 
   extends: [
     'airbnb-typescript',
