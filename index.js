@@ -19,6 +19,14 @@ module.exports = {
     'prettier/@typescript-eslint',
   ],
 
+  // settings: {
+  //   'import/resolver': {
+  //     alias: {
+  //       map: [['@web', './src']],
+  //     },
+  //   },
+  // },
+
   rules: {
     // Prettier.
     'prettier/prettier': 2,
