@@ -31,6 +31,9 @@ module.exports = {
     // Prettier.
     'prettier/prettier': 2,
 
+    // Files and folders.
+    'unicorn/filename-case': 0,
+
     // Dev.
     'no-console': [1, { allow: ['warn', 'info', 'error'] }],
 
