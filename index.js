@@ -42,21 +42,14 @@ module.exports = {
     'import/no-default-export': 2,
 
     // Hoisting.
-    'no-use-before-define': [
-      2,
-      {
-        functions: false,
-        classes: true,
-        variables: true,
-      },
-    ],
+    'no-use-before-define': 0,
     '@typescript-eslint/no-use-before-define': [
       2,
       {
         functions: false,
         classes: true,
         variables: true,
-        typedefs: true,
+        typedefs: false,
       },
     ],
 
