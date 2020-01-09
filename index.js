@@ -34,6 +34,9 @@ module.exports = {
     // Files and folders.
     'unicorn/filename-case': 0,
 
+    // Allow abbreviations.
+    'unicorn/prevent-abbreviations': 0,
+
     // Dev.
     'no-console': [1, { allow: ['warn', 'info', 'error'] }],
 
@@ -61,6 +64,7 @@ module.exports = {
     // React.
     'react/prop-types': 0,
     'react/react-in-jsx-scope': 0,
+    'react/destructuring-assignment:': 0,
 
     // Typescript
     '@typescript-eslint/semi': [2, 'never'],
