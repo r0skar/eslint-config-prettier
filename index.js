@@ -64,7 +64,7 @@ module.exports = {
     // React.
     'react/prop-types': 0,
     'react/react-in-jsx-scope': 0,
-    'react/destructuring-assignment:': 0,
+    'react/destructuring-assignment': 0,
 
     // Typescript
     '@typescript-eslint/semi': [2, 'never'],
