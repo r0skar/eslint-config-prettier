@@ -2,7 +2,7 @@ module.exports = {
   env: {
     browser: true,
     node: true,
-    es6: true,
+    es6: true
   },
 
   parser: 'babel-eslint',
@@ -16,7 +16,7 @@ module.exports = {
     'plugin:unicorn/recommended',
     'prettier',
     'prettier/react',
-    'prettier/@typescript-eslint',
+    'prettier/@typescript-eslint'
   ],
 
   // settings: {
@@ -52,8 +52,8 @@ module.exports = {
         functions: false,
         classes: true,
         variables: true,
-        typedefs: false,
-      },
+        typedefs: false
+      }
     ],
 
     // Promises.
@@ -63,10 +63,11 @@ module.exports = {
 
     // React.
     'react/prop-types': 0,
+    'react/jsx-no-undef': 0,
     'react/react-in-jsx-scope': 0,
     'react/destructuring-assignment': 0,
 
-    // Typescript
+    // Typescript.
     '@typescript-eslint/semi': [2, 'never'],
     '@typescript-eslint/no-empty-interface': 0,
     '@typescript-eslint/explicit-function-return-type': 0,
@@ -78,8 +79,8 @@ module.exports = {
       2,
       {
         multiline: { delimiter: 'none' },
-        singleline: { delimiter: 'semi', requireLast: false },
-      },
+        singleline: { delimiter: 'semi', requireLast: false }
+      }
     ],
     camelcase: 0,
     '@typescript-eslint/camelcase': [2, { ignoreDestructuring: true }],
@@ -90,9 +91,9 @@ module.exports = {
         varsIgnorePattern: '(^_|^IIFE|^\\$|h)',
         argsIgnorePattern: '(^_|)',
         args: 'after-used',
-        ignoreRestSiblings: true,
-      },
-    ],
+        ignoreRestSiblings: true
+      }
+    ]
   },
 
   // Add TS support and rules that require type support.
@@ -105,8 +106,8 @@ module.exports = {
         sourceType: 'module',
         ecmaVersion: 2019,
         ecmaFeatures: {
-          jsx: true,
-        },
+          jsx: true
+        }
       },
       rules: {
         '@typescript-eslint/prefer-includes': 2,
@@ -118,28 +119,28 @@ module.exports = {
             types: {
               Array: {
                 message: 'Use <T>[] instead',
-                fixWith: '<unknown>[]',
+                fixWith: '<unknown>[]'
               },
               Object: {
                 message: 'Use Record instead',
-                fixWith: 'Record<string, unknown>',
+                fixWith: 'Record<string, unknown>'
               },
               String: {
                 message: 'Use string instead',
-                fixWith: 'string',
+                fixWith: 'string'
               },
               Boolean: {
                 message: 'Use boolean instead',
-                fixWith: 'boolean',
+                fixWith: 'boolean'
               },
               Number: {
                 message: 'Use number instead',
-                fixWith: 'number',
-              },
-            },
-          },
-        ],
-      },
-    },
-  ],
+                fixWith: 'number'
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
 }
