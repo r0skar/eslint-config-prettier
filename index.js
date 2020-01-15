@@ -66,6 +66,7 @@ module.exports = {
     'react/jsx-no-undef': 0,
     'react/react-in-jsx-scope': 0,
     'react/destructuring-assignment': 0,
+    'react/no-unescaped-entities': 0,
 
     // Typescript.
     '@typescript-eslint/semi': [2, 'never'],
